@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="contactPageStyles.css">
+    <title>Contact Form</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+   
 </head>
 <body>
-    <h1>Contact</h1>
-    <h2>Currently under construction since 5/14/2023</h2>
-    
-    <div class="contact-list">
-        <ul>📞 Preferred Hours: 9am - 7pm Mon - Fri   |   10am - 7pm Sat - Sun 📞
-            <li>email: connorroweofficial@gmail.com</li>
-            <li>linkedin: <a href="https://www.linkedin.com/in/connor-rowe-4b8314236/">https://www.linkedin.com/in/connor-rowe-4b8314236/</a></li>
-            <li>phone: (224) 856-8242</li>
-        </ul>
+    <nav class="navbar">
+        <div class="brand-title">Connor.net</div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="ContactInfo">
+        <h1>Contact</h1>
+        <div class="contact-list">
+            <ul class="contact-ul">
+                <li>email: connorroweofficial@gmail.com</li>
+                <li>linkedin: <a href="https://www.linkedin.com/in/connor-rowe-4b8314236/">https://www.linkedin.com/in/connor-rowe-4b8314236/</a></li>
+                <li>phone: (224) 856-8242</li>
+            </ul>
+        </div> 
+
+</div> 
+
+    <div class="container">
+        <h2>Contact Form 📨</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="title" placeholder="Message Title" rows="1" required></textarea>
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
-    <h3>Go <a href="./home.html"> home.</h3>
 
-    <h4>Copyright (c) Connor Rowe 2023</h4>
+    <h3 class="copyright">Copyright (c) Connor Rowe 2023
+    </h3>
 
+    
 </body>
 </html>
